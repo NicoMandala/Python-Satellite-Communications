@@ -1,0 +1,39 @@
+# Code converts text phrases into binary and plots them with a frequency 3 GHz(S-Band)
+# Input : Any text phrase that contains ascii characters(list here: https://www.w3schools.com/charsets/ref_html_ascii.asp#:~:text=ASCII%20is%20a%207%2Dbit,are%20all%20based%20on%20ASCII.)
+# Output: Signal-Time plot
+
+import matplotlib.pyplot as plt 
+import numpy as np
+
+freq = 3*1e9
+c = 3*1e9
+text =  input("Enter a string you want to send away: ")
+
+
+L = text.encode()           # string to array of bytes
+M = int.from_bytes(L,"big") # byte_array to binary integer
+N = bin(M)                  # binary int to binary characters
+N = N.replace("0b","")      # removing the extra 0b in front of the binary int
+
+# print(N)
+# print(type(N))
+
+O = [None]*len(N)
+
+for i in range(0,len(N)):
+    O[i] = int(N[i])
+print(O)
+
+t = np.arange(0,0 + 1/freq*(len(O)), 1/freq) # setting up the time variable
+
+
+plt.plot(t,O)
+
+plt.xlabel('Time')
+plt.ylabel('Signal')
+
+
+
+plt.title('Signal vs Time for the phrase "'+ text + '"')
+
+plt.show()
