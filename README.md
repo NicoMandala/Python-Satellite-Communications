@@ -9,6 +9,16 @@ Convert Text to Signal - text2signal.py
 
 Use Vigenère cipher for alphabets - Vigenère.py
 
+In future you can expect these additions to the repo
+
+1. More encryption algorithms
+2. Modulation/ Demodulation
+3. Scramble/ Descramble
+4. Link Budget
+5. BER
+6. Multiplexing/Demultiplexing
+
+
 # Dependencies
 Python Version >= 3.8
 
