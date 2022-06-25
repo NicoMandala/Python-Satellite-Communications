@@ -1,6 +1,7 @@
-# Code converts text phrases into binary and plots them with a frequency 3 GHz(S-Band)
+# Function: Code converts text phrases into binary and plots them with a frequency 3 GHz(S-Band)
 # Input : Any text phrase that contains ascii characters(list here: https://www.w3schools.com/charsets/ref_html_ascii.asp#:~:text=ASCII%20is%20a%207%2Dbit,are%20all%20based%20on%20ASCII.)
 # Output: Signal-Time plot
+# Comments: 
 
 import matplotlib.pyplot as plt 
 import numpy as np
