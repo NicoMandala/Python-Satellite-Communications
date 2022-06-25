@@ -7,7 +7,6 @@ Antenna Object - antenna.py (work in progress)
 
 Convert Text to Signal - text2signal.py
 
-Encryption Folder
 Use Vigenère cipher for alphabets - Vigenère.py
 
 # Dependencies
