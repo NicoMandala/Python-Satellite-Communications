@@ -55,4 +55,6 @@ def decryption(encrypt_text, key):
 
 
 # use case
-encrpyted_text = encryption("Thisissecret","qwdf")
+encrypted_text = encryption("Thisissecret","qwdf")
+
+print(encrypted_text)
