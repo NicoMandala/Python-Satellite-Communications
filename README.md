@@ -23,6 +23,7 @@ In future you can expect these additions to the repo
 4. Link Budget
 5. BER
 6. Multiplexing/Demultiplexing
+7. A document supplementing the library
 </pre>
 
 
