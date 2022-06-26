@@ -1,5 +1,8 @@
 # Python-Satellite-Communications
-Python classes, codes for Satellite Communications
+
+Goal: To code the building blocks of an operating ground station in Python and documentation 
+
+Python object classes, codes for Satellite Communications
 
 Groundstation Object - groundstation.py
 
