@@ -1,6 +1,5 @@
-# Python-Satellite-Communications
+# Python-Satellite-Communications: 
 
-Goal: To code the building blocks of an operating ground station in Python and documentation 
 
 
 
@@ -25,6 +24,7 @@ In future you can expect these additions to the repo
 5. BER
 6. Multiplexing/Demultiplexing
 
+Goal: The building blocks of an operating ground station in Python and it's documentation 
 
 # Dependencies
 Python Version >= 3.8
