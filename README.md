@@ -2,6 +2,8 @@
 
 Goal: To code the building blocks of an operating ground station in Python and documentation 
 
+
+
 Python object classes, codes for Satellite Communications
 
 Groundstation Object - groundstation.py
@@ -11,6 +13,8 @@ Antenna Object - antenna.py (work in progress)
 Convert Text to Signal - text2signal.py
 
 Use Vigenère cipher for alphabets - Vigenère.py
+
+
 
 In future you can expect these additions to the repo
 
