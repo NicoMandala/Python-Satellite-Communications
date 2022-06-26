@@ -18,6 +18,4 @@ print(ant.dia, ant.EIRP, ant.freq, ant.eta)
 
 # Encrypt only text with no spaces, no symbols
 encrypted_text = encryption("Thisissecret","qwdf")
-
-
 print(encrypted_text)
