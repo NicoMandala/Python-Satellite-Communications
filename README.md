@@ -14,7 +14,7 @@ Convert Text to Signal - text2signal.py
 Use Vigenère cipher for alphabets - Vigenère.py
 
 
-
+<pre>
 In future you can expect these additions to the repo
 
 1. More encryption algorithms
@@ -23,6 +23,8 @@ In future you can expect these additions to the repo
 4. Link Budget
 5. BER
 6. Multiplexing/Demultiplexing
+</pre>
+
 
 Goal: The building blocks of an operating ground station in Python and it's documentation 
 
