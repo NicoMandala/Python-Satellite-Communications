@@ -10,5 +10,7 @@ class Antenna:
         self.freq = freq # frequency used in the radar
         self.eta  = eta  # overall efficiency of the radar
 
+
+
     def Gain(self):
         return 10*log10(self.eta*(pi*self.dia*self.freq/c)^2)
