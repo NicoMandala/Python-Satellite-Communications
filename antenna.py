@@ -16,3 +16,5 @@ class Antenna:
 
     def Gain(self):
         return 10*log10(self.eta*(pi*self.dia*self.freq/c)^2)
+
+    
