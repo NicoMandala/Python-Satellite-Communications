@@ -26,6 +26,8 @@ In future you can expect these additions to the repo
 7. A document supplementing the library
 </pre>
 
+![Text  to Signal](https://github.com/NicoMandala/Python-Satellite-Communications/blob/main/Images/Figure_12.jpeg)
+
 
 Goal: The building blocks of an operating ground station in Python and it's documentation 
 
